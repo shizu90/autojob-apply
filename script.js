@@ -17,6 +17,8 @@ function infoJobs(index, numberOfJobs){
     applyJobInfoJobs(index, numberOfJobs)
 }
 
+infoJobs(0, 20)
+
 function catho(index, numberOfJobs){ //Working
     applyJobCatho(index, numberOfJobs)
 }
@@ -41,5 +43,7 @@ function applyJobCatho(index, numberOfJobs, selectLetter){
         }
     }, 1200)
 }
+
+
 
 
